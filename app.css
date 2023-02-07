@@ -1,4 +1,5 @@
-section {
+/* Opacity and Alpha Channel  */
+/* section {
   width: 500px;
   height: 500px;
   background-color: magenta;
@@ -13,4 +14,43 @@ section {
   height: 50%;
   background-color: yellow;
   opacity: 0.3;
+} */
+
+/* Position Property */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(114, 38, 38);
+  border: 2px solid black;
+  margin: 10px;
+  display: inline-block;
+}
+
+#two {
+  background-color: rgb(53, 53, 117);
+}
+
+#static #two {
+  position: static;
+}
+
+#relative #two {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+#absolute {
+  position: relative;
+}
+
+#absolute #two {
+  position: absolute;
+  left: 100px;
+}
+
+#fixed #two {
+  position: fixed;
+}
+#sticky #two {
+  position: sticky;
 }
